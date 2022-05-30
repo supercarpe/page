@@ -1,0 +1,570 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+.cabecalho {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(172, 168, 168, 0.795); 
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 3px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+
+
+}
+#super {
+    color: rgba(172, 168, 168, 0.795);
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    padding: 10px;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+}
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(124, 114, 114, 0.781);
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    
+
+}
+nav .active a,
+nav a:hover {
+    background-color: rgba(172, 163, 163, 0.719);
+    color: rgb(227, 227, 236);
+    border-radius: 10px;
+}
+/*aqui termina o cabeçalho*/
+
+/*aqui começa o banner*/
+#banner {
+    background-image:url('../imagens/golf.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+}
+.conteiner { 
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    flex-direction: column;
+}
+.texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto h1 {
+    color: rgba(205, 214, 211, 0.61);
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    margin: 0px;
+    padding: 0px;
+    max-width: 300px;
+}
+.texto h2 {
+       color: rgb(240, 240, 245);
+       font-size: 25px;
+       font-family: 'Staatliches', cursive;
+       margin: 0px;
+       padding: 0px;
+      max-width: 300px;
+       margin-top: 25px;
+}
+.area {
+    height: 200px;
+    display: flex;
+ }
+ .fig1,
+ .fig2,
+ .fig3 {
+     flex: 1;
+     color: rgb(245, 234, 234);
+     padding: 20px;
+ }
+ .fig1 {
+    background-color: rgba(85, 81, 83, 0.37);
+ }
+ .fig2 {
+    background-color: rgba(85, 81, 83, 0.466);
+ }
+ .fig3 {
+    background-color: rgba(85, 81, 83, 0.568);
+ }
+ .titulo, 
+ .titulo2,
+ .titulo3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .ser {
+    color: rgb(179, 168, 168);
+    font-family: 'Staatliches', cursive;
+    font-size: 17px;
+
+ }
+ .cont {
+    font-family: 'Staatliches', cursive;
+    font-size: 19px;
+    color: rgb(179, 168, 168);
+    flex: 1;
+ }
+ #i1,
+ #i2,
+ #i3 {
+    color: rgb(87, 85, 82);
+ }
+ .end {
+    font-family: 'Staatliches', cursive;
+    color: rgb(179, 168, 168);
+    font-size: 20px;
+ }
+ /*aqui termina o banner*/
+
+ /*aqui começa a parte geral do site*/
+.conteiner2 {
+
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+} 
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 2;
+
+}
+#geral aside {
+    flex: 1;
+}
+.wid-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.wid-title-text {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+
+}
+.barra {
+    height: 2px;
+    width: 40px;
+    background-color: rgb(87, 85, 82);
+    margin-top: 5px;
+    
+}
+article .data {
+    display: flex;
+}
+article .post {
+    background-color: rgb(87, 85, 82);
+    color: rgb(213, 195, 230);
+    font-size: 16px;
+    padding: 4px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 5px;
+    margin-right: 2px;
+
+}
+.coment {
+    background-color: rgb(87, 85, 82);
+    color: rgb(213, 195, 230);
+    font-size: 16px;
+    padding: 4px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 3px;
+
+}
+article, img {
+    margin-top: 15px;
+}
+article .news-thumbe img {
+          width: 100%;
+          height: auto;
+}
+article .new-title{
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: rgb(87, 85, 82);
+    margin-bottom: 15px;
+}
+article .resumo{
+    color: rgba(138, 137, 114, 0.719);
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+
+}
+article a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+
+}
+.nome {
+
+    margin-top: 20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: rgb(87, 85, 82);
+    margin-bottom: 10px;
+    
+}
+.nome2 {
+
+    margin-top: 40px;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: rgb(87, 85, 82);
+    margin-bottom: 10px;
+    
+}
+aside .img {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+aside .rick-frase {
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: rgb(14, 13, 12);
+    margin-top: 50px;
+}
+
+aside .depo2 {
+    margin-top: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    color: rgb(134, 132, 106);
+    margin-top: 50px;
+}
+#preços {
+    list-style: none;
+}
+aside {
+ border: 1px solid rgb(134, 132, 106);
+ margin-top: 20px;
+ border-bottom-left-radius: 50px;
+ border-top-right-radius:50px ;
+}
+aside .wid-body1 {
+    padding-left: 30px;
+}
+aside .wid-title2 {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+ /*aqui termina a parte geral do site*/
+ /*aqui começa o rodape*/
+ footer {
+     background-color: rgb(17, 3, 3);
+     margin-top: 5px;
+     display: flex;
+     justify-content: center;
+ }
+ .foot-menu{
+     display: flex;
+ }
+ .fm1,
+ .fm2,
+ .fm3 {
+     flex: 1;
+     font-family: 'Staatliches', cursive;
+     color: rgb(179, 168, 168);
+     font-size: 20px;
+     padding: 20px;
+ }
+ .fm1 {
+    background-color: rgba(85, 81, 83, 0.37);
+ }
+ .fm2 {
+    background-color: rgba(85, 81, 83, 0.466);
+ }
+ .fm3 {
+    background-color: rgba(85, 81, 83, 0.568);
+}
+.foot-area {
+    color: rgb(179, 168, 168);
+    display: flex;
+
+}
+.areafoot {
+    flex: 1;
+}
+.column {
+    flex-direction: column;
+}
+.wid-title-text2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.wid-title-text3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    color: blue;
+    
+
+}
+.barra3 {
+    height: 2px;
+    width: 40px;
+    background-color: white;
+    margin-top: 5px;
+    
+}
+.footcopy {
+    border-top: 1px solid blue;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    font-family: verdana;
+    font-size: 10px;
+    margin-top: 30px;
+}
+.wid-body .tech {
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+.wid-body.tech {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+.icones .ul, li {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+.wid-body .tech2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    color: rgb(119, 112, 112);
+    margin: 5px;
+    margin-top: 20px;
+}
+.wid-body .tech3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 18px;
+    color: rgb(102, 94, 94);
+    margin: 5px;
+}
+.menumobile {
+    display: none;
+}
+#icon3 {
+    display: none;
+}
+/*aqui termina o site*/
+
+/*aqui começa a responsividade*/
+
+@media (max-width:600px) {
+    .conteiner .texto h1 {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    .conteiner .texto h2 {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .conteiner .area .titulo, .titulo2, .titulo3 {
+        font-size: 15px;
+        
+    }
+    .conteiner .ser li, .cont li, .end li {
+        font-size: 12px;
+    }
+    .conteiner .area {
+        height:auto;
+    }
+    .cabecalho h2 {
+        font-size: 30px;
+    }
+    .conteiner2{
+        flex-direction: column;
+    }
+    #geral section {
+        padding: 40px;
+    }
+    #geral aside {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .foot-menu {
+        height: auto;
+        flex-direction: column;
+
+    }
+    .foot-menu .fm1 .horarios {
+        font-size: 18px;
+        text-align: center;
+    }
+    .foot-menu .fm1 li {
+             font-size: 15px;
+             text-align: center;
+    }
+    .foot-menu .fm2, .fm3 .equipes {
+        font-size: 18px;
+        text-align: center;
+    }
+        .foot-menu .fm2 li {
+            font-size: 15px;
+    }
+    .foot-menu .fm3 p {
+        font-size: 15px;
+    }
+    .foot-area {
+        margin: 20px;
+        flex-direction: column;
+    }
+    .foot-area .wid-title-text2 {
+        font-size: 18px;
+    }
+    .wid-body .tech2 {
+        font-size: 15px;
+    }
+    .wid-body .tech3 p {
+        font-size: 15px;
+    }
+    .footcopy {
+        padding: 5px;
+    }
+    nav ul,
+    nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    flex-direction: column;
+    display: none;
+    } 
+    header {
+        height: auto;
+    } 
+    .logo {
+        padding-left: 50px;
+
+    } 
+    .menumobile {
+        display: block;
+        margin: auto;
+    } 
+    #fale {
+        font-size: 20px;
+        color: rgb(119, 112, 112);
+        text-align: center;
+    }
+    #resp {
+        display: none;
+    }
+    
+}
+@media (max-width:420px) {
+
+    .conteiner .texto h1, .texto h2 {
+        margin: auto;
+
+    }
+    .conteiner .texto h1 {
+        font-size: 45px;
+    }
+    .conteiner .texto h2 {
+        font-size: 25px;
+    }
+    #super {
+        font-size:25px;
+    }
+    #fale {
+        font-size: 16px;
+        display: none;
+    }
+
+    #icon3 {
+        display: block;
+        padding-right: 30px;
+    }
+    #fora {
+        display: none;
+    }
+    #resp {
+    display: block;
+    padding-right: 5px;
+    }
+    #none {
+        display: none;
+    }
+    #nao {
+        display: none;
+    }
+    aside .depo2 {
+        padding-right: 5px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
